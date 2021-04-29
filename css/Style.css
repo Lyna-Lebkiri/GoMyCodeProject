@@ -1,83 +1,82 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+	margin: 0px;
+	padding: 0px;
 }
-#banner{
-    background-image:url(../res/imge/youcef-hamoud.jpg);
-    height: 100vh;
+#banner {
+	background-image: url(../res/imge/youcef-hamoud.jpg);
+	height: 100vh;
 }
-#navbar{
-    width: 100%;
-    height: 80px;
-    background-color:black
+#navbar {
+	width: 100%;
+	height: 80px;
+	background-color: black;
 }
-#navbar.logo{
-    width: 50% ;
-    height: auto;
-
+#navbar.logo {
+	width: 50%;
+	height: auto;
 }
-#navbar ul{
-     float: right;
-     margin-right: 20px;
+#navbar ul {
+	float: right;
+	margin-right: 20px;
 }
-#navbar ul li{
-    list-style: none;
-    margin: 0px 8px;
-    display: inline-block;
-    line-height: 80px;
+#navbar ul li {
+	list-style: none;
+	margin: 0px 8px;
+	display: inline-block;
+	line-height: 80px;
 }
 #navbar ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 25px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    transition: .3;
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	transition: .3;
 }
 #navbar ul li a:hover,
-#navbar ul li a.active{
-    color: #fddb00;}
-#banner .center{
-    position: absolute;
-    top: 50%;
-    left: 20%;
-    transform: translate(-50%);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+#navbar ul li a.active {
+	color: #fddb00;
 }
-.center h1{
-    color: whitesmoke;
-    font-size: 70px;
-    font-weight: 700;
-    text-align: center;
+#banner .center {
+	position: absolute;
+	top: 50%;
+	left: 20%;
+	transform: translate(-50%);
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.center h2{
-    color: whitesmoke;
-    font-size: 50px;
-    font-weight: 500;
-    text-align: center;
+.center h1 {
+	color: whitesmoke;
+	font-size: 70px;
+	font-weight: 700;
+	text-align: center;
 }
-#banner .buttons{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+.center h2 {
+	color: whitesmoke;
+	font-size: 50px;
+	font-weight: 500;
+	text-align: center;
 }
-.buttons button{
-    height: 60px;
-    width: 160px;
-    font-weight: bolder;
-    color: purple;
-    background-color: yellow;
-    font-size: 25px;
-    border: 1px solid yellow;
-    border-radius: 10px;
-    outline: none;
-    cursor: pointer;
-    transition: .4s;
+#banner .buttons {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
-.buttons button :hover{
-    background-color: yellowgreen;
-
+.buttons button {
+	height: 60px;
+	width: 160px;
+	font-weight: bolder;
+	color: purple;
+	background-color: #ffff55;
+	border: #fddb00 1px;
+	font-size: 25px;
+	border-radius: 10px;
+	outline: none;
+	cursor: pointer;
+	transition: .4s;
 }
-.button .btn{
-    margin-left: 50px;
+.buttons button:hover {
+	background-color: yellowgreen;
+}
+.button .btn {
+	margin-left: 50px;
 }
